@@ -20,7 +20,7 @@ jobs:
       - name: Checkout RepoB
         uses: actions/checkout@v4
         with:
-          repository: YOUR_ORG/RepoB
+          repository: w-yuan-quadient/RepoB
           path: RepoB
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
 
